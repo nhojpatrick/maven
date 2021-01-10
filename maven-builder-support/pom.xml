@@ -33,4 +33,11 @@ under the License.
   <name>Maven Builder Support</name>
   <description>Support for descriptor builders (model, setting, toolchains)</description>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
